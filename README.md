@@ -25,3 +25,8 @@ Welcome to the Nexus of Knowledge Library Management System! This Python-based a
 
    ```bash
    git clone https://github.com/yourusername/NexusOfKnowledge.git
+
+### Install the required Python package
+
+2. '''bash
+   pip install mysql-connector-python
