@@ -28,19 +28,13 @@ Welcome to the Nexus of Knowledge Library Management System! This Python-based a
    git clone https://github.com/yourusername/NexusOfKnowledge.git
    ```
 
-2. Navigate to the project directory:
-
-   ```bash
-   cd NexusOfKnowledge
-   ```
-
-3. Install the required Python packages:
+2. Install the required Python packages:
 
    ```bash
    pip install mysql-connector-python
    ```
 
-4. Set up your MySQL database:
+3. Set up your MySQL database:
 
    - Create a MySQL database named `aakar`.
    - Set up the required tables:
@@ -51,10 +45,10 @@ Welcome to the Nexus of Knowledge Library Management System! This Python-based a
      - `issued_books`
      - `donated_books`
 
-5. Update the database connection details in the script:
+4. Update the database connection details in the script:
 
    ```python
-   con = c.connect(host='localhost', password="aakar@7906", user="root", database="aakar")
+   con = c.connect(host='localhost', password="xyz@1234", user="root", database="aakar")
    ```
 
 ## Usage
@@ -75,13 +69,10 @@ Welcome to the Nexus of Knowledge Library Management System! This Python-based a
 - **Returning Issued Books**: Return books you've issued and retrieve your security deposit.
 - **Donating Books**: Donate books to the library, and the system will check for duplicates.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
 - MySQL Connector for Python
 - Python Regular Expressions (re module)
 - Python `datetime` module
-- Nexus of Knowledge: A futuristic library system for the modern world.
+
